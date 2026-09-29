@@ -1,0 +1,256 @@
+
+
+body {
+    background-color: #e4e0b0;
+    margin: 0%;
+    
+    
+    
+}
+main {
+    background-color: white;
+    width: 100%;
+    max-width: 830px;
+    margin: auto;
+    min-width: 280px;
+    margin-top: 0px;
+    border-radius: 0px 0px 12px 12px;
+    justify-content: center;
+    display: block;
+    box-shadow: 0px 3px 8px 3px rgba(0, 0, 0, 0.342)
+    
+}
+header > h1 {
+    font-family: "singo", sans-serif;
+    font-size: 3.5EM;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow:  3px 2px 2px rgba(0, 0, 0, 0.541);
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight:500;
+    color: white;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.541);
+    font-size: 1.2EM;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "singo";
+    src: url(fontes/singoregular.otf) format(opentype);
+}
+    
+
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    
+}
+ #droid {
+     max-width: 350px;
+}
+
+.paragraf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:450;
+    text-align: justify;
+    margin: 0px;
+    line-height: 1.5;
+    padding: 13px;
+   
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #173d28, #2aff95);
+    box-shadow: 0px 6px 7px 2px rgba(0, 0, 0, 0.336);
+    position: relative; 
+    min-height: 253px;      
+}
+    
+
+nav {
+    display: flex;
+    justify-content: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: absolute;
+    bottom: 1px;
+    left: 12px;
+    display: flex;
+    gap: 5px;
+}
+
+
+nav > a {
+    color:#94d8b4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;   
+    padding: 10px 12px; 
+    transition: 0.7s; 
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #2aff95;
+    border-radius: 5px;
+    color: #1B5936;
+    
+}
+
+
+
+main > #video {
+    background-color: #1B5936;
+    max-width:830px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#frame {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    width: 830px;
+    height: 450px;
+    transform: scale(0.9);
+    
+
+}
+.espatitu{
+    margin:25px 23px;
+    background-image: linear-gradient(to right, #41f19157, #55c08500);
+    margin-left: 14px;
+    padding-left: 11px;
+}
+
+h1 {
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 16px;
+}
+
+#titulo {
+    margin: 0px;
+}
+.font {
+    font-family: "androidfont", sans-serif;
+    color: #1a683d;
+    
+    
+}
+
+@font-face {
+    font-family: "androidfont";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+article {
+    background-color: #9ce7b6b6;
+    display: block;
+    justify-content: center;
+    margin: 20px 20px;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.219);
+    border: 1px solid #333;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+.lista > ul {
+    width: 45%;
+    list-style: none;
+}
+
+.lista > ul > li::before {
+    content: "✓";
+    margin-right: 10px;
+}
+
+.lista > ul > li > a {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: #1a683d;
+    
+}
+
+.lista > ul > li > a:hover {
+    color: #173d28;
+}
+
+#pp {
+    background-color: #2eaa68;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer > p {
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #1B5936;
+    margin:0%;
+    padding:10px;
+    margin-top: 20px;
+    min-width: 280px;
+}
+
+.brancob {
+    font-weight: 700;
+}
+
+.verdea {
+    color: #1a683d;
+    font-weight: 600;
+}
+
+.linkv > a {
+    color: #1a683d;
+    text-decoration: none;
+    background-color: #41f19157;
+}
+
+.linkv ::after {
+    content: "🔗";
+}
+
+.linkv :hover {
+    text-decoration:underline
+}
+
+    
+
+    
+    
+
